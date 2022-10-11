@@ -1,0 +1,19 @@
+.instagram-feed {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: calc(1.5 * var(--global--spacing-vertical));
+}
+
+.instagram-caption {
+    font: {
+        weight: bold;
+    }
+    color: var(--global--color-white);
+    text-transform: uppercase;
+}
+
+.feed-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}

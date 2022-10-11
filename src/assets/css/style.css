@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/inter-lightitalic-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Comforta';
+    src: url('../fonts/comfortaa_bold-webfont.woff2') format('woff2'),
+         url('../fonts/comfortaa_bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter-bold-webfont.woff2') format('woff2'),
+         url('../fonts/inter-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter-regular-webfont.woff2') format('woff2'),
+         url('../fonts/inter-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Comforta';
+    src: url('../fonts/comfortaa_regular-webfont.woff2') format('woff2'),
+         url('../fonts/comfortaa_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root {
+    --light-sea-green: #0093A1;
+    --white: #ffffff;
+    --black: #000000;
+    --dark-green: #262C27;
+    --yellow-green: #B9C400;
+}
+
+html {
+    font-size: 10px;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+h1, h2, p {
+    margin-bottom: 0;
+}
+
+input,
+select,
+textarea,
+button {
+    font-size: 100%;
+    font-family: inherit;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:focus {
+
+}
+
+a:visited {
+
+}
+
+a:active {
+
+}
+
+body {
+    margin: 0;
+    font-size: 1.6rem;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 860px;
+    background: url(../images/header.jpg) center center / cover no-repeat;
+}

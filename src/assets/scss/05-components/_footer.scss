@@ -1,0 +1,40 @@
+.footer {
+    background-color: var(--global--color-black);
+
+    .container {
+        position: relative;
+        padding-top: calc(5 * var(--global--spacing-vertical));
+        padding-bottom: calc(4 * var(--global--spacing-vertical));
+    }
+
+    h2 {
+        line-height: var(--global--line-height-page-title);
+        margin-bottom: calc(2.25 * var(--global--spacing-vertical));
+    }
+
+    .logo {
+        position: absolute;
+        right: 0;
+        top: 81px;
+    }
+
+    .contact-form {
+        margin-bottom: calc(4.5 * var(--global--spacing-horizontal));
+    }
+
+    .instagram-feed {
+        margin-bottom: calc(2.5 * var(--global--spacing-vertical));
+    }
+
+    .site-nav {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+
+        a[href] {
+            color: var(--global--color-white);
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+}

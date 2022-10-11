@@ -1,0 +1,25 @@
+a {
+    color: var(--link--color-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+// play video
+a.play-video {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: var(--link--color-secondary);
+    padding-top: 80px;
+    background: url(../images/play-video.svg) top center no-repeat;
+    display: block;
+    width: fit-content;
+    line-height: var(--global--line-height-page-title);
+
+    &:hover {
+        text-decoration: none;
+    }
+}

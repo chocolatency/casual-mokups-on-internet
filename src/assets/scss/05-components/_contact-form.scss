@@ -1,0 +1,31 @@
+.contact-form {
+    width: 500px;
+    max-width: 100%;
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        margin-bottom: calc(2.5 * var(--global--spacing-vertical));
+    }
+
+    input {
+        width: 100%;
+        background: transparent;
+        color: var(--form--input-color-primary);
+        padding: var(--from--input-padding-vertical) 0;
+        border: none;
+        border-bottom: 1px solid rgba(255,255,255,0.4);
+
+        &::placeholder {
+            color: var(--form--input-placeholder-color);
+            font: {
+                family: inherit;
+                size: inherit;
+                weight: bold;
+            }
+            text-transform: uppercase;
+        }
+    }
+}

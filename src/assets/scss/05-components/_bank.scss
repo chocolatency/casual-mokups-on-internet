@@ -1,0 +1,56 @@
+.bank {
+
+    // min-height: 1750px;
+    background: url('../images/Fanatic_RayAirPocket_Klaas_Fanatic_DJI_0704_Sigmund 1.jpg') center center / cover no-repeat;
+    color: var(--global--color-white);
+    line-height: var(--text--line-height);
+
+    .container {
+        position: relative;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    
+    .specs,
+    .peculiarities {
+        display: flex;
+        flex-flow: row wrap;
+        gap: calc(6 * var(--global--spacing-horizontal));
+
+    }
+    .peculiarities {
+        padding-top: calc(14 * var(--global--spacing-vertical));
+        background: url('../images/F21_SUP_RayAirPocket 1.png') top right 21% / 227px 650px no-repeat;
+    }
+
+    .specs {
+        margin-top: 605px;
+        margin-bottom: 50px;
+        align-items: center;
+    }
+
+    .text {
+        
+        &--outline {
+            padding-bottom: calc(1.5 * var(--global--spacing-vertical));
+            border-bottom: 1px solid var(--border--color-primary);
+        }
+    }
+}
+
+.specs {
+    dl {
+        display: flex;
+        flex-flow: row wrap;
+        width: 565px;
+        row-gap: var(--list--row-gap);
+    }
+
+    dt {
+        flex: 0 1 33%;
+    }
+
+    dd {
+        flex: 0 1 67%;
+    }
+}

@@ -1,0 +1,35 @@
+@import "01-settings/variables";
+
+/**
+ * SETTINGS
+ * File-header..............Header file for theme style.css file.
+ */
+
+@import "01-settings/font";
+@import "01-settings/global";
+
+@import "02-tools/functions";
+@import "02-tools/mixins";
+
+@import "03-generic/breakpoints";
+@import "03-generic/normalize";
+@import "03-generic/reset";
+
+@import "04-elements/button";
+@import "04-elements/link";
+@import "04-elements/list";
+@import "04-elements/headings";
+@import "04-elements/paragraph";
+
+@import "05-components/editor";
+@import "05-components/header";
+@import "05-components/woods";
+@import "05-components/bank";
+@import "05-components/showcase";
+@import "05-components/technology";
+@import "05-components/gallery";
+@import "05-components/footer";
+@import "05-components/contact-form";
+@import "05-components/instagram-feed";
+
+// @import "06-components/header";

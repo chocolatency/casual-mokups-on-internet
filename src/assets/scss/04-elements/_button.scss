@@ -1,0 +1,20 @@
+button.button,
+button.btn {
+    @include button-style();
+}
+
+// aqua, buy button
+button.button--aqua {
+    font-size: var(--button--font-size-aqua);
+    color: var(--button--color-aqua);
+    padding: var(--button--padding-vertical-aqua) var(--button--padding-horizontal-aqua);
+    border: 2px solid var(--button--color-aqua);
+    background: transparent;
+}
+
+// white, form button 
+button.button--white {
+    --button--background-color: var(--button--background-color-white);
+    --button--border: var(--border--color-primary);
+    --button--color: var(--button--color-black);
+}

@@ -1,0 +1,33 @@
+footer.footer 
+    .container 
+
+        .logo 
+            include ../../assets/images/logo-footer.svg
+
+        h2.page-title Contact us
+
+        section.contact-form 
+            form(action="/" method="post")
+                ul
+                    li 
+                        label(for="name") 
+                        input(type="text" name="name" placeholder="name")
+                    li 
+                        label(for="email")
+                        input(type="email" name="email" placeholder="email")
+                button.button.button--white Send
+
+        section.instagram-feed 
+            header.instagram-caption instagram 
+            .feed-container 
+                img(src=require('../../assets/images/feed-1.jpg'), alt="instagram" width="260" height="260")
+                img(src=require('../../assets/images/feed-2.jpg'), alt="instagram" width="260" height="260")
+                img(src=require('../../assets/images/feed-3.jpg'), alt="instagram" width="260" height="260")
+                img(src=require('../../assets/images/feed-4.jpg'), alt="instagram" width="260" height="260")
+
+        nav.site-nav  
+            a(href="#") copyright 2022
+            a(href="#") all rights reserved 
+            a(href="#") cookie settings
+            a(href="#") privacy statements
+            a(href="#") contact 

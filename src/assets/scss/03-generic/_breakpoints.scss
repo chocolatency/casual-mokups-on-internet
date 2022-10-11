@@ -1,0 +1,95 @@
+/**
+ * Responsive styles
+ */
+
+$breakpoint_sm: 576px;
+$breakpoint_md: 768px;
+$breakpoint_lg: 992px;
+$breakpoint_xl: 1200px;
+$breakpoint_xxl: 1400px;
+
+@mixin media( $res ) {
+
+    @if mobile-only == $res {
+        @media only screen and (max-width: $breakpoint_sm) {
+            @content;
+        }
+    }
+
+    @if mobile == $res {
+        @media only screen and (mim-width: $breakpoint_sm) {
+            @content;
+        }
+    }
+
+    @if tablet-only == $res {
+        @media only screen and (max-width: $breakpoint_md) {
+            @content;
+        }
+    }
+
+    @if tablet == $res {
+        @media only screen and (min-width: $breakpoint_md) {
+            @content;
+        }
+    }
+
+    @if laptop-only == $res {
+        @media only screen and (max-width: $breakpoint_lg) {
+            @content;
+        }
+    }
+
+    @if laptop == $res {
+        @media only screen and (min-width: $breakpoint_lg) {
+            @content;
+        }
+    }
+
+    @if desktop-only == $res {
+        @media only screen and (max-width: $breakpoint_xl) {
+            @content;
+        }
+    }
+
+    @if desktop == $res {
+        @media only screen and (min-width: $breakpoint_xl) {
+            @content;
+        } 
+    }
+
+    @if wide-only == $res {
+        @media only screen and (max-width: $breakpoint_xxl) {
+            @content;
+        }
+    }
+
+    @if wide == $res {
+        @media only screen and (min-width: $breakpoint_xxl) {
+            @content;
+        }
+    }
+}
+
+:root {
+    --responsive--alignwide-width: min(calc(100vw - 2 * var(--global--spacing-horizontal)), 1200px);
+    // --responsive--alignwide-width: calc(100vw - 2 * var(--re));
+}
+
+@media(mobile) {
+    :root {
+        --responsive--alignwide-width: calc(100vw - 3 * var(--global--spacing-horizontal));
+    }
+}
+
+%responsive-container {
+    max-width: var(--responsive--alignwide-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    @extend %responsive-container;
+}

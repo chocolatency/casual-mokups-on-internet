@@ -1,0 +1,45 @@
+.showcase {
+    padding-top: calc(7.5 * var(--global--spacing-vertical));
+    padding-bottom: calc(8.5 * var(--global--spacing-vertical));
+}
+
+.product-container {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 10px;
+    justify-content: space-between;
+    h2 {
+        display: block;
+        width: 100%;
+    }
+
+    .details {
+        position: relative;
+        flex: 0 1 auto;
+        width: 484px;
+    }
+
+    .thumbnail {
+        display: flex;
+
+        img {
+            object-fit: contain;
+        }
+    }
+
+}
+
+// sale price tag
+.sale-price {
+    width: 201px;
+    height: 199px;
+    background: url('../images/Group 14.svg') center center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.25rem;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    bottom: 135px;
+}

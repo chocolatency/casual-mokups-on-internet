@@ -1,0 +1,66 @@
+.technology {
+    position: relative;
+    background: url(../images/snowwood.svg) top -180px center / 1920px 452px no-repeat, url(../images/VectorFlipped.svg) top -100px center / 1920px 452px no-repeat, url('../images/Fanatic_RayAirPocket_DJI_0638_Sigmund 1.jpg') top center / contain no-repeat;
+    width: 100%;
+    padding-top: calc(24 * var(--global--spacing-vertical));
+
+    h2 {
+        width: 470px;
+        margin-top: calc(13 * var(--global--spacing-vertical));
+        color: var(--heading--color-dark);
+        line-height: var(--global--line-height-page-title);
+        margin-bottom: calc(3 * var(--global--spacing-vertical));
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .play-video {
+        top: 0;
+        right: 33%;
+    }
+
+    .materials {
+        display: flex;
+        flex-flow: column;
+        font-weight: bold;
+        margin-left: 17px;
+        gap: calc(0.75 * var(--global--spacing-vertical));
+        li {
+            padding-left: 24px;
+        }
+    }
+
+    .gallery {
+        float: right;
+        position: absolute;
+        right: 0;
+        margin-top: -160px;
+
+        &-wrapper {
+            display: block;
+            margin-bottom: calc(10 * var(--global--spacing-vertical));
+        }
+
+        &::before {
+            content: "";
+            display: block;
+            box-sizing: content-box;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            padding: 72px 32px 52px 32px;
+            margin-top: -72px;
+            margin-left: -32px;
+            border: 3px solid var(--border--color-secondary);
+            border-radius: 200px 0 300px;
+            
+        }
+    }
+
+    .text {
+        width: 350px;
+        line-height: var(--global--line-height-button);
+    }
+}

@@ -1,0 +1,12 @@
+h2, 
+.page-title {
+    text-transform: uppercase;
+    color: var(--heading--color-primary);
+    font-family: var(--global--font-primary);
+    font-size: var(--heading--font-size-md);
+}
+
+.page-title--color-blue {
+    color: var(--heading--color-secondary);
+}
+

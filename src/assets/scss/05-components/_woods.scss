@@ -1,0 +1,18 @@
+.woods {
+    position: relative;
+    height: var(--spacer--wood-height);
+    background-color: var(--spacer--background-color);
+
+    &-container {
+        position: absolute;
+        min-height: 496px;
+        width: 100%;
+        background: url(../images/FREE.svg) top 65% left 40% no-repeat, url(../images/Vector.svg) center center / contain no-repeat;
+        transform: translateY(-60%);
+        
+        &.rotate-180 {
+            background: url(../images/Vector.svg) center center / contain no-repeat;
+            transform: translateY(-10%) rotate(-180deg);
+        }
+    }
+}
