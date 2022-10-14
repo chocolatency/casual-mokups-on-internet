@@ -18,7 +18,8 @@ a.play-video {
     display: block;
     width: fit-content;
     line-height: var(--global--line-height-page-title);
-
+    height: fit-content;
+    
     &:hover {
         text-decoration: none;
     }

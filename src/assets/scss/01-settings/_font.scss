@@ -1,4 +1,6 @@
 // Do we need to serve a font? Place font-face declarations here.
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
 @font-face {
     font-family: 'Inter';
     src: url('../fonts/inter-lightitalic-webfont.woff2') format('woff2'),
@@ -8,14 +10,14 @@
 
 }
 
-@font-face {
-    font-family: 'Comforta';
-    src: url('../fonts/comfortaa_bold-webfont.woff2') format('woff2'),
-         url('../fonts/comfortaa_bold-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+// @font-face {
+//     font-family: 'Comforta';
+//     src: url('../fonts/comfortaa_bold-webfont.woff2') format('woff2'),
+//          url('../fonts/comfortaa_bold-webfont.woff') format('woff');
+//     font-weight: bold;
+//     font-style: normal;
 
-}
+// }
 
 @font-face {
     font-family: 'Inter';
@@ -35,29 +37,11 @@
 
 }
 
-@font-face {
-    font-family: 'Comforta';
-    src: url('../fonts/comfortaa_regular-webfont.woff2') format('woff2'),
-         url('../fonts/comfortaa_regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+// @font-face {
+//     font-family: 'Comforta';
+//     src: url('../fonts/comfortaa_regular-webfont.woff2') format('woff2'),
+//          url('../fonts/comfortaa_regular-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
 
-}
-
-@font-face {
-    font-family: 'silkscreenbold';
-    src: url('../fonts/silkscreen-bold-webfont.woff2') format('woff2'),
-         url('../fonts/silkscreen-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'silkscreenregular';
-    src: url('../fonts/silkscreen-regular-webfont.woff2') format('woff2'),
-         url('../fonts/silkscreen-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
+// }
